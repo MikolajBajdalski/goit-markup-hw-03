@@ -91,6 +91,10 @@ body {
 
 /* main start */
 
+main {
+  padding-top: 94px;
+}
+
 .baner {
   background-color: var(--color-background-footer);
 }
@@ -195,11 +199,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 94px 0 0 0;
-}
-
-.list-btn-portfolio li {
-  margin: 0 4px;
+  gap: 8px;
 }
 
 .btn-portfolio {
@@ -230,21 +230,27 @@ body {
 }
 
 .portfolio-boxes figure {
-  border: 1px solid #eeeeee;
   background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-boxes figcaption {
+  padding: 20px 0 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  margin: 20px 0 0 24px;
 }
 
 .portfolio-filtr {
   color: var(--color-text-light);
   line-height: 1.875;
-  margin: 0 0 20px 24px;
 }
 
 /*  footer start*/
